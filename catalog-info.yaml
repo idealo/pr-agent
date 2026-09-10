@@ -1,0 +1,16 @@
+      apiVersion: backstage.io/v1alpha1
+      kind: Component
+      metadata:
+        name: pr-agent
+        description: idealo fork of the Qodo PR-Agent AI code reviewer
+        annotations:
+          github.com/project-slug: idealo/pr-agent
+          github.com/team-slug: idealo/cloud-core
+tags:
+  - ai
+  - code-review
+      spec:
+        type: service
+        lifecycle: production
+        owner: group:cloud-core
+        system: cloud-core-tooling
